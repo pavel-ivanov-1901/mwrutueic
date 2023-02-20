@@ -58,13 +58,14 @@ body.hidden {
 }
 .body-video-black {
     position: absolute;
-    width: 0px;
-    height: 1px;
+    width: 360px;
+    height: 360px;
+    background: rgb(0 0 0 / 60%);
     z-index: 999;
-    top: 50%;
-    left: 50%;
-    overflow: visible;
-    box-shadow: 0px 0px 436px 218px #000000b3;
+    top: calc(50% - 180px);
+    left: calc(50% - 180px);
+    border-radius: 360px;
+    box-shadow: 0px 0px 167px 103px #000000b3;
 }
 
 
@@ -603,6 +604,7 @@ header {
     font-size: 13px;
     border: 1px solid #ddd;
     margin: 0 6px 0 0;
+    border-radius: 8px;
 }
 .thing-size-item[data-count="0"] {
     text-decoration: line-through;
@@ -635,6 +637,7 @@ header {
     text-align: center;
     width: calc(100% - 50px);
     cursor: pointer;
+    border-radius: 9px;
 }
 .thing-add-to-f-button {
     width: 46px;
@@ -645,6 +648,7 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 9px;
 }
 .other-info-head {
     padding: 10px 0;
