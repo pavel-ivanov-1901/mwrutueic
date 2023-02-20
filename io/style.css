@@ -54,7 +54,7 @@ body.hidden {
     left: 0;
     z-index: 1;
     background: url('../picker.jpg') center;
-    background-size: 70%;
+    background-size: cover;
 }
 .body-video-black {
     position: absolute;
